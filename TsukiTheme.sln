@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsukiTheme", "TsukiTheme.csproj", "{A5B58DB6-4EA7-45D5-BFC0-9CC586CA468E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsukiTheme.Demo", "demo\TsukiTheme.Demo.csproj", "{6B6BDF08-236F-4D59-8D5A-7EDC2D669269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B58DB6-4EA7-45D5-BFC0-9CC586CA468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B58DB6-4EA7-45D5-BFC0-9CC586CA468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B58DB6-4EA7-45D5-BFC0-9CC586CA468E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B58DB6-4EA7-45D5-BFC0-9CC586CA468E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6BDF08-236F-4D59-8D5A-7EDC2D669269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6BDF08-236F-4D59-8D5A-7EDC2D669269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6BDF08-236F-4D59-8D5A-7EDC2D669269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6BDF08-236F-4D59-8D5A-7EDC2D669269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

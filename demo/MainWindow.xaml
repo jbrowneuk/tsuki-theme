@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="TsukiTheme.Demo.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Content="a"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="90,10,0,0" IsEnabled="False" Content="b"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="296,14,0,0" Content="trans:e" Style="{StaticResource ButtonTransparent}"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="376,14,0,0" IsEnabled="False" Content="trans:d" Style="{StaticResource ButtonTransparent}"/>
+
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="171,10,0,0" SelectedIndex="1">
+            <ComboBoxItem>Option A</ComboBoxItem>
+            <ComboBoxItem>Option B</ComboBoxItem>
+            <ComboBoxItem>Option C</ComboBoxItem>
+            <ComboBoxItem>Option D</ComboBoxItem>
+            <ComboBoxItem>Option E</ComboBoxItem>
+        </ComboBox>
+
+        <TextBox HorizontalAlignment="Left" Margin="10,42.96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75" />
+        <TextBox HorizontalAlignment="Left" Margin="90,42.96,0,0" TextWrapping="Wrap" Text="ReadOnly" VerticalAlignment="Top" Width="76" IsReadOnly="True"/>
+        <TextBox HorizontalAlignment="Left" Margin="171,42.96,0,0" TextWrapping="Wrap" Text="Disabled" VerticalAlignment="Top" Width="76" IsEnabled="False"/>
+        
+        <ToggleButton HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,75.05,0,0" Content="Toggle"/>
+
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,106.01,0,0" Content="Radio 1" GroupName="ga" />
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="74.786,106.01,0,0" Content="Radio 2" GroupName="gb" IsChecked="True" IsEnabled="False"/>
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139.572,106.01,0,0" Content="Radio 3" GroupName="gc" IsChecked="True"/>
+
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,126.97,0,0" Content="Radio 4" GroupName="ga" IsChecked="True"/>
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="74.786,126.01,0,0" Content="Radio 5" GroupName="gb" IsEnabled="False"/>
+        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139.572,126.01,0,0" Content="Radio 6" GroupName="gc"/>
+
+        <CheckBox Margin="10,147.93,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Checkbox 1"/>
+        <CheckBox Margin="100.35,147.93,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Checkbox 2" IsChecked="True"/>
+        <CheckBox Margin="190.7,147.93,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Checkbox 3" IsEnabled="False" IsChecked="True"/>
+        <CheckBox Margin="281.05,147.93,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Checkbox 4" IsEnabled="False"/>
+
+        <ScrollViewer VerticalAlignment="Top" Margin="10,169,10,0" Height="64" HorizontalScrollBarVisibility="Auto">
+            <Ellipse Height="256" Width="512" Fill="Red"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

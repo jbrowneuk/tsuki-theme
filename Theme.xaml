@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Brushes.xaml"/>
+        <ResourceDictionary Source="Images.xaml"/>
+        <ResourceDictionary Source="Buttons.xaml"/>
+        <ResourceDictionary Source="RadioButton.xaml"/>
+        <ResourceDictionary Source="CheckBox.xaml"/>
+        <ResourceDictionary Source="ScrollViewer.xaml"/>
+        <ResourceDictionary Source="ComboBox.xaml"/>
+        <ResourceDictionary Source="TextBox.xaml"/>
+        <ResourceDictionary Source="ToggleSwitch.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
